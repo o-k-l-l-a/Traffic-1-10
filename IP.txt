@@ -5,12 +5,12 @@ We have also provided IPs for 1/10 balance for you, which you can use to comply 
 
 Esfahan /24
 
-`5.75.0.0`       	`5.75.127.255`    32768  	11/06/12    Esfahan Telecommunication Company (P.J.S.)
-`5.219.0.0` 	`5.219.63.255` 	16384 	04/09/12 	Esfahan Telecommunication Company (P.J.S.)
-`5.219.64.0` 	`5.219.127.255` 	16384 	04/09/12 	Esfahan Telecommunication Company (P.J.S.)
-`5.219.128.0` 	`5.219.191.255` 	16384 	04/09/12 	Esfahan Telecommunication Company (P.J.S.)
-`5.219.192.0` 	`5.219.255.255` 	16384 	04/09/12 	Esfahan Telecommunication Company (P.J.S.)
-`37.254.0.0` 	`37.255.255.255` 	131072 	19/04/12 	Esfahan Telecommunication Company (P.J.S.)
+5.75.0.0       	5.75.127.255    32768  	11/06/12    Esfahan Telecommunication Company (P.J.S.)
+5.219.0.0   	  5.219.63.255 	  16384 	04/09/12 	Esfahan Telecommunication Company (P.J.S.)
+5.219.64.0 	    5.219.127.255  	16384 	04/09/12 	Esfahan Telecommunication Company (P.J.S.)
+5.219.128.0 	  5.219.191.255 	16384 	04/09/12 	Esfahan Telecommunication Company (P.J.S.)
+5.219.192.0   	5.219.255.255 	16384 	04/09/12 	Esfahan Telecommunication Company (P.J.S.)
+37.254.0.0 	    37.255.255.255 	131072 	19/04/12 	Esfahan Telecommunication Company (P.J.S.)
 
 
 
