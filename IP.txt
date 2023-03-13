@@ -1,0 +1,81 @@
+
+We have also provided IPs for 1/10 balance for you, which you can use to comply with 1/10
+
+
+
+Esfahan /24
+
+`5.75.0.0`       	`5.75.127.255`    32768  	11/06/12    Esfahan Telecommunication Company (P.J.S.)
+`5.219.0.0` 	`5.219.63.255` 	16384 	04/09/12 	Esfahan Telecommunication Company (P.J.S.)
+`5.219.64.0` 	`5.219.127.255` 	16384 	04/09/12 	Esfahan Telecommunication Company (P.J.S.)
+`5.219.128.0` 	`5.219.191.255` 	16384 	04/09/12 	Esfahan Telecommunication Company (P.J.S.)
+`5.219.192.0` 	`5.219.255.255` 	16384 	04/09/12 	Esfahan Telecommunication Company (P.J.S.)
+`37.254.0.0` 	`37.255.255.255` 	131072 	19/04/12 	Esfahan Telecommunication Company (P.J.S.)
+
+
+
+Iran Telecommunication Company PJS /24
+
+5.62.160.0 	5.62.191.255 	8192 	11/06/12 	Iran Telecommunication Company PJS
+5.74.0.0 	5.74.255.255 	65536 	11/06/12 	Iran Telecommunication Company PJS
+5.232.0.0 	5.239.255.255 	524288 	07/09/12 	Iran Telecommunication Company PJS
+31.14.80.0 	31.14.95.255 	4096 	18/04/11 	Iran Telecommunication Company PJS
+31.14.144.0 	31.14.159.255 	4096 	18/04/11 	Iran Telecommunication Company PJS
+37.156.112.0 	37.156.127.255 	4096 	13/03/12 	Iran Telecommunication Company PJS
+37.156.128.0 	37.156.143.255 	4096 	13/03/12 	Iran Telecommunication Company PJS
+46.100.0.0 	46.100.255.255 	65536 	24/06/10 	Iran Telecommunication Company PJS
+77.81.32.0 	77.81.47.255 	4096 	15/02/07 	Iran Telecommunication Company PJS
+77.81.144.0 	77.81.159.255 	4096 	15/02/07 	Iran Telecommunication Company PJS
+80.210.0.0 	80.210.63.255 	16384 	12/12/01 	Iran Telecommunication Company PJS
+80.210.128.0 	80.210.255.255 	32768 	12/12/01 	Iran Telecommunication Company PJS
+81.16.112.0 	81.16.127.255 	4096 	21/01/04 	Iran Telecommunication Company PJS
+85.204.80.0 	85.204.95.255 	4096 	13/01/05 	Iran Telecommunication Company PJS
+85.204.208.0 	85.204.223.255 	4096 	13/01/05 	Iran Telecommunication Company PJS
+86.104.80.0 	86.104.95.255 	4096 	18/04/05 	Iran Telecommunication Company PJS
+86.104.96.0 	86.104.111.255 	4096 	18/04/05 	Iran Telecommunication Company PJS
+86.105.128.0 	86.105.143.255 	4096 	18/04/05 	Iran Telecommunication Company PJS
+86.107.80.0 	86.107.95.255 	4096 	18/04/05 	Iran Telecommunication Company PJS
+86.107.144.0 	86.107.159.255 	4096 	18/04/05 	Iran Telecommunication Company PJS
+89.36.48.0 	89.36.63.255 	4096 	29/11/05 	Iran Telecommunication Company PJS
+89.36.96.0 	89.36.111.255 	4096 	29/11/05 	Iran Telecommunication Company PJS
+89.36.176.0 	89.36.191.255 	4096 	29/11/05 	Iran Telecommunication Company PJS
+89.37.240.0 	89.37.255.255 	4096 	29/11/05 	Iran Telecommunication Company PJS
+89.38.80.0 	89.38.95.255 	4096 	29/11/05 	Iran Telecommunication Company PJS
+89.40.240.0 	89.40.255.255 	4096 	29/11/05 	Iran Telecommunication Company PJS
+89.219.64.0 	89.219.127.255 	16384 	05/07/06 	Iran Telecommunication Company PJS
+89.219.192.0 	89.219.255.255 	16384 	05/07/06 	Iran Telecommunication Company PJS
+91.185.128.0 	91.185.159.255 	8192 	25/10/06 	Iran Telecommunication Company PJS
+93.117.0.0 	93.117.31.255 	8192 	21/12/07 	Iran Telecommunication Company PJS
+93.117.32.0 	93.117.47.255 	4096 	21/12/07 	Iran Telecommunication Company PJS
+93.117.96.0 	93.117.127.255 	8192 	21/12/07 	Iran Telecommunication Company PJS
+93.118.96.0 	93.118.127.255 	8192 	21/12/07 	Iran Telecommunication Company PJS
+93.118.128.0 	93.118.159.255 	8192 	21/12/07 	Iran Telecommunication Company PJS
+93.118.160.0 	93.118.175.255 	4096 	21/12/07 	Iran Telecommunication Company PJS
+93.119.32.0 	93.119.63.255 	8192 	21/12/07 	Iran Telecommunication Company PJS
+93.119.64.0 	93.119.95.255 	8192 	21/12/07 	Iran Telecommunication Company PJS
+109.74.224.0 	109.74.239.255 	4096 	12/11/09 	Iran Telecommunication Company PJS
+188.209.16.0 	188.209.31.255 	4096 	08/05/09 	Iran Telecommunication Company PJS
+188.209.32.0 	188.209.47.255 	4096 	08/05/09 	Iran Telecommunication Company PJS
+188.209.64.0 	188.209.79.255 	4096 	08/05/09 	Iran Telecommunication Company PJS
+188.210.96.0 	188.210.127.255 	8192 	08/05/09 	Iran Telecommunication Company PJS
+188.210.128.0 	188.210.191.255 	16384 	08/05/09 	Iran Telecommunication Company PJS
+188.211.32.0 	188.211.63.255 	8192 	08/05/09 	Iran Telecommunication Company PJS
+188.211.64.0 	188.211.127.255 	16384 	08/05/09 	Iran Telecommunication Company PJS
+188.211.128.0 	188.211.159.255 	8192 	08/05/09 	Iran Telecommunication Company PJS
+188.211.176.0 	188.211.191.255 	4096 	08/05/09 	Iran Telecommunication Company PJS
+188.211.192.0 	188.211.223.255 	8192 	08/05/09 	Iran Telecommunication Company PJS
+188.212.64.0 	188.212.95.255 	8192 	08/05/09 	Iran Telecommunication Company PJS
+188.212.160.0 	188.212.191.255 	8192 	08/05/09 	Iran Telecommunication Company PJS
+188.212.208.0 	188.212.223.255 	4096 	08/05/09 	Iran Telecommunication Company PJS
+188.212.224.0 	188.212.239.255 	4096 	08/05/09 	Iran Telecommunication Company PJS
+188.213.96.0 	188.213.127.255 	8192 	08/05/09 	Iran Telecommunication Company PJS
+188.213.144.0 	188.213.159.255 	4096 	08/05/09 	Iran Telecommunication Company PJS
+188.213.176.0 	188.213.191.255 	4096 	08/05/09 	Iran Telecommunication Company PJS
+188.214.160.0 	188.214.191.255 	8192 	08/05/09 	Iran Telecommunication Company PJS
+188.215.128.0 	188.215.143.255 	4096 	08/05/09 	Iran Telecommunication Company PJS
+188.215.160.0 	188.215.191.255 	8192 	08/05/09 	Iran Telecommunication Company PJS
+188.215.192.0 	188.215.223.255 	8192 	08/05/09 	Iran Telecommunication Company PJS
+195.181.0.0 	195.181.31.255 	8192 	31/01/97 	Iran Telecommunication Company PJS
+195.181.32.0 	195.181.63.255 	8192 	20/03/97 	Iran Telecommunication Company PJS
+195.181.64.0 	195.181.127.255 	16384 	20/03/97 	Iran Telecommunication Company PJS
+217.77.112.0 	217.77.127.255 	4096 	10/12/02 	Iran Telecommunication Company PJS
