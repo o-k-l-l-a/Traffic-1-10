@@ -10,4 +10,4 @@ If no time is specified, it will take forever. The time is in seconds.
 Size defaults to 1024 bytes. The maximum value is 65530.
   
   
-Install with one click
+<pre> Install with one click <pre>
