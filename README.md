@@ -16,6 +16,7 @@ command : `pkill -9 python`<br>
  Install with one click 
 <pre> wget https://raw.githubusercontent.com/alirezaezzatofficial/Traffic-1-10/main/setup.sh && bash setup.sh </pre>    
  
+ <img src="https://0-4-1.ir/dl/Traffic-1-10.png">
 
 Only the IP is required.<hr>
 If no port is specified, it will send packets on random ports.<br>
