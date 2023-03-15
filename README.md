@@ -5,18 +5,9 @@
 Usage: `python Traffic-1-10.py <ip> -p <port> -t <time> -s <size>`
 
 
-
-
  On your server run 
  Install with one click 
-<pre> 
-wget https://raw.githubusercontent.com/alirezaezzatofficial/Traffic-1-10/main/setup.sh && bash setup.sh <pre>
-
-
-
-
-
-
+<pre> wget https://raw.githubusercontent.com/alirezaezzatofficial/Traffic-1-10/main/setup.sh && bash setup.sh <pre>
 
 Only the IP is required.
 If no port is specified, it will send packets on random ports.
