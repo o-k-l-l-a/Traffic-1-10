@@ -7,7 +7,7 @@ script based on the udp protocol, which can bypass the 1/10 limitation of Iran's
 Usage: `python Traffic-1-10.py <ip> -p <port> -t <time> -s <size>`
 
 
- On your server run 
+ <h1> On your server run </h1>
  Install with one click 
 <pre> wget https://raw.githubusercontent.com/alirezaezzatofficial/Traffic-1-10/main/setup.sh && bash setup.sh </pre>    
  
