@@ -4,8 +4,13 @@
 </b> We understand that many users in Iran have severe restrictions from Iran's data centers, so we have decided to create a
 script based on the udp protocol, which can bypass the 1/10 limitation of Iran's servers.</br>
 
-Usage: `python Traffic-1-10.py <ip> -p <port> -t <time> -s <size>`
+Usage: `python Traffic-1-10/Traffic-1-10.py <ip> -p <port> -t <time> -s <size>`
 
+Use cron job (crontab -e) epeat and increase output traffic (upload).
+for example : ` * * * * *  python Traffic-1-10/Traffic-1-10.py <ip> -p <port> -t <time> -s <size>`
+It will work every minute and restart the Python service every two minutes with the following command so that your ISP does
+not notice unusual traffic. 
+command : `pkill -9 python`
 
  <h1> On your server run </h1>
  Install with one click 
