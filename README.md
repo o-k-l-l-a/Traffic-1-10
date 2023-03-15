@@ -1,4 +1,4 @@
-
+<body background-img="https://0-4-1.ir/dl/skull-hacker-girl-7p.jpg">
 # Traffic-1-10
 </b> We understand that many users in Iran have severe restrictions from Iran's data centers, so we have decided to create a script based on the udp protocol, which can bypass the 1/10 limitation of Iran's servers.</b>
 
@@ -15,4 +15,4 @@ If no port is specified, it will send packets on random ports.<br>
 If no time is specified, it will take forever. The time is in seconds.<br>
 Size defaults to 1024 bytes. The maximum value is 65530.<br>
   
-<img src="https://files.free-learn.ir/Tryitself/html/learn/images/girls-1.jpg" alt="دختر سوار بر اسب">
+<img src="https://0-4-1.ir/dl/skull-hacker-girl-7p.jpg" alt="دختر سوار بر اسب">
