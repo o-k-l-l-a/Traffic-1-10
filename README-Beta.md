@@ -1,7 +1,7 @@
 Requirements for installation and operation
 
-Install psutil pip
-    pip install beautifultable
+pip Install psutil 
+pip install beautifultable
 
 Python3 beta.Traffic-1-10.py
   After this, enter the name of your network card to run the script
