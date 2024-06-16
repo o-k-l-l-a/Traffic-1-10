@@ -6,7 +6,7 @@ SERVICE_NAME="traffic_monitor"
 SCRIPT_NAME="Traffic-1-10.py"
 INSTALL_DIR="/opt/traffic-monitor"
 
-# Function to install packages on Debian-based systems
+# Function to install packages on Debian-based systems (Ubuntu, Debian)
 install_packages_debian() {
     sudo apt-get update -y
     sudo apt-get install -y git python3 python3-pip prometheus
@@ -16,8 +16,14 @@ install_packages_debian() {
 install_packages_rhel() {
     sudo yum install -y epel-release
     sudo yum install -y git python3 python3-pip
-    # For Prometheus, you might need to enable an additional repo or download the binary
-    sudo yum install -y prometheus
+    # Installing Prometheus using the binary
+    PROMETHEUS_VERSION="2.31.1"
+    cd /tmp
+    curl -LO https://github.com/prometheus/prometheus/releases/download/v${PROMETHEUS_VERSION}/prometheus-${PROMETHEUS_VERSION}.linux-amd64.tar.gz
+    tar xvf prometheus-${PROMETHEUS_VERSION}.linux-amd64.tar.gz
+    sudo mv prometheus-${PROMETHEUS_VERSION}.linux-amd64/prometheus /usr/local/bin/
+    sudo mv prometheus-${PROMETHEUS_VERSION}.linux-amd64/promtool /usr/local/bin/
+    sudo mv prometheus-${PROMETHEUS_VERSION}.linux-amd64/{consoles,console_libraries} /etc/prometheus/
 }
 
 # Check the OS and call the appropriate function
