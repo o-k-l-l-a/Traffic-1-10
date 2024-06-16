@@ -1,4 +1,4 @@
-```markdown
+
 # Traffic-1-10
 
 This Python script monitors network download and upload speeds and sends packets to a specified IP and port using either TCP or UDP protocol. It displays real-time speed and data usage statistics in a neatly formatted table.
@@ -79,4 +79,3 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 - Your Name (okila@telegmail.com)
 
-```
