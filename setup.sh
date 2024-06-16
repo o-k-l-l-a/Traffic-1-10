@@ -7,8 +7,8 @@ SCRIPT_NAME="Traffic-1-10.py"
 INSTALL_DIR="/opt/traffic-monitor"
 
 # Update and install necessary packages
-sudo apt-get update
-sudo apt-get install -y git python3 python3-pip
+sudo apt-get update -y
+sudo apt-get install -y git python3 python3-pip prometheus
 
 # Clone the repository
 sudo git clone $REPO_URL $INSTALL_DIR
