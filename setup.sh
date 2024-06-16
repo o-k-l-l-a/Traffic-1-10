@@ -6,9 +6,29 @@ SERVICE_NAME="traffic_monitor"
 SCRIPT_NAME="Traffic-1-10.py"
 INSTALL_DIR="/opt/traffic-monitor"
 
-# Update and install necessary packages
-sudo apt-get update -y
-sudo apt-get install -y git python3 python3-pip prometheus
+# Function to install packages on Debian-based systems
+install_packages_debian() {
+    sudo apt-get update -y
+    sudo apt-get install -y git python3 python3-pip prometheus
+}
+
+# Function to install packages on RHEL-based systems (AlmaLinux, CentOS)
+install_packages_rhel() {
+    sudo yum install -y epel-release
+    sudo yum install -y git python3 python3-pip
+    # For Prometheus, you might need to enable an additional repo or download the binary
+    sudo yum install -y prometheus
+}
+
+# Check the OS and call the appropriate function
+if [ -f /etc/debian_version ]; then
+    install_packages_debian
+elif [ -f /etc/redhat-release ]; then
+    install_packages_rhel
+else
+    echo "Unsupported OS"
+    exit 1
+fi
 
 # Clone the repository
 sudo git clone $REPO_URL $INSTALL_DIR
