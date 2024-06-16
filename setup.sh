@@ -9,7 +9,7 @@ INSTALL_DIR="/opt/traffic-monitor"
 # Function to install packages on Debian-based systems (Ubuntu, Debian)
 install_packages_debian() {
     sudo apt-get update -y
-    sudo apt-get install -y git python3 python3-pip prometheus
+    sudo apt-get install -y git python3 python3-pip prometheus git
 }
 
 # Function to install packages on RHEL-based systems (AlmaLinux, CentOS)
