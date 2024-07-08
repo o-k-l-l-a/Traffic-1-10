@@ -36,7 +36,7 @@ This Python script monitors network download and upload speeds and sends packets
 Run the script with the following command:
 
 ```bash
-python Traffic-1-10.py [-p PROTOCOL] [-z MULTIPLIER] [-i interface]
+python Traffic-1-10.py [-p PROTOCOL] [-z MULTIPLIER] [-i interface] --file IP.txt
 ```
 
 ### Arguments
@@ -49,7 +49,7 @@ python Traffic-1-10.py [-p PROTOCOL] [-z MULTIPLIER] [-i interface]
 To run the script using UDP protocol and a packet size multiplier of 20:
 
 ```bash
-python Traffic-1-10.py -p udp -z 20
+python3 Traffic-1-10.py -p udp -z 10 -i eno1 --file IP.txt
 ```
 
 ## How It Works
