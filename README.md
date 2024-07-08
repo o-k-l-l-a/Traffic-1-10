@@ -36,7 +36,7 @@ This Python script monitors network download and upload speeds and sends packets
 Run the script with the following command:
 
 ```bash
-python Traffic-1-10.py [-p PROTOCOL] [-z MULTIPLIER]
+python Traffic-1-10.py [-p PROTOCOL] [-z MULTIPLIER] [-i interface]
 ```
 
 ### Arguments
