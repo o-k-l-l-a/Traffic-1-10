@@ -3,6 +3,7 @@ import psutil
 import time
 import socket
 from prettytable import PrettyTable
+import random
 
 # Create ArgumentParser object
 parser = argparse.ArgumentParser(description='Run up.py with specified protocol and multiplier.')
@@ -14,9 +15,15 @@ parser.add_argument('-z', '--multiplier', type=int, default=10,
                     help='Multiplier value for packet size')
 parser.add_argument('-i', '--interface', type=str, default=None,
                     help='Network interface to use')
+parser.add_argument('-f', '--file', type=str, required=True,
+                    help='File containing IP addresses')
 
 # Parse arguments from command line
 args = parser.parse_args()
+
+# Read IP addresses from the file
+with open(args.file, 'r') as f:
+    ip_list = [line.strip() for line in f.readlines()]
 
 # Define the speed format string
 speed_format = "Download: {:.2f} Mbps, Upload: {:.2f} Mbps, Total Download: {:.2f} MB, Total Upload: {:.2f} MB"
@@ -51,13 +58,8 @@ if interface is None:
         print("No network interface found with internet connection.")
         exit(1)
 
-# Set the target address and port for sending packets based on the protocol type
-if args.protocol == "tcp":
-    ip = "178.22.122.100"
-    port = 53
-elif args.protocol == "udp":
-    ip = "185.51.200.2"
-    port = 53
+# Set the target port for sending packets based on the protocol type
+port = 53
 
 # Ask for the packet size multiplier with default value
 multiplier = args.multiplier
@@ -68,8 +70,7 @@ data_size_mbit = DEFAULT_DATA_SIZE
 # Create a socket based on the protocol type
 sock = None
 if args.protocol == "tcp":
-    sock = socket.socket()
-    sock.connect((ip, port))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 elif args.protocol == "udp":
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
@@ -98,6 +99,9 @@ try:
         # Print updated table
         print(table)
 
+        # Select a random IP address from the list
+        ip = random.choice(ip_list)
+
         # Send the data with the requested size
         data_size_byte = int(data_size_mbit * 1024 * 1024 / 8)
         mtu = 1400  # Change the value based on your network MTU
@@ -107,6 +111,9 @@ try:
             end_idx = start_idx + mtu if i < num_packets - 1 else data_size_byte
             payload = b'a' * (end_idx - start_idx)
             if args.protocol == "tcp":
+                if sock is None or sock.fileno() == -1:
+                    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                    sock.connect((ip, port))
                 sock.sendall(payload)
             elif args.protocol == "udp":
                 sock.sendto(payload, (ip, port))
