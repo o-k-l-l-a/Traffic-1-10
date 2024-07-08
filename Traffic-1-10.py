@@ -12,6 +12,8 @@ parser.add_argument('-p', '--protocol', type=str, default='udp', choices=['tcp',
                     help='Protocol type (TCP or UDP)')
 parser.add_argument('-z', '--multiplier', type=int, default=10,
                     help='Multiplier value for packet size')
+parser.add_argument('-i', '--interface', type=str, default=None,
+                    help='Network interface to use')
 
 # Parse arguments from command line
 args = parser.parse_args()
@@ -41,11 +43,13 @@ def get_internet_connected_interface():
                 return interface
     return None
 
-# Automatically select network interface with internet connection
-interface = get_internet_connected_interface()
+# Select network interface
+interface = args.interface
 if interface is None:
-    print("No network interface found with internet connection.")
-    exit(1)
+    interface = get_internet_connected_interface()
+    if interface is None:
+        print("No network interface found with internet connection.")
+        exit(1)
 
 # Set the target address and port for sending packets based on the protocol type
 if args.protocol == "tcp":
